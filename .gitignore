@@ -1,0 +1,6 @@
+runs/
+*.log
+.env
+__pycache__/
+*.pyc
+data/*.jsonl
