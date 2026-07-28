@@ -166,6 +166,8 @@ Example assessment of **`llama3.1:latest`** via the Ollama backend, `direct` vec
 
 The headline metric is **case-level ASR** using the harness's own aggregation — *max-over-repeats*: a case counts vulnerable if **any** repeat lands, because an attacker only needs one. Trial-level ASR (every repeat counted separately) is shown alongside for transparency.
 
+<img width="1780" height="1019" alt="asr_by_family" src="https://github.com/user-attachments/assets/1ebee083-f326-43df-94a6-aac22bc08708" />
+
 ### Baseline
 
 35 cases · 154 trials · direct vector · 3 repeats per case (10 for a subset) · 0 errors · 0 canary leaks.
